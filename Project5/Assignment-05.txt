@@ -1,0 +1,51 @@
+CUSTOMERS:
+
+{"_id":{"$oid":"5e9acff37fbdc55d2406a819"},"title":"4","forename":"Jim","surname":"Tim","mobile":"4","email":"4","homeLine1":"y","homeLine2":"y","homeTown":"House Town","homeCounty":"Louth","homeCode":"40DK30K","shippingLine1":"Big House","shippingLine2":"House Road","shippingTown":"House Town","shippingCounty":"Louth","shippingCode":"40DK30K"}
+
+{"_id":{"$oid":"5e9ad0569489ce4d601c123f"},"title":"Mx","forename":"Bob","surname":"Dylan","mobile":"0472985","email":"bobbydylan@dobbyvillain.com","homeLine1":"Gaf","homeLine2":"Road","homeTown":"Cabra","homeCounty":"Dublin","homeCode":"4KF008S","shippingLine1":"Gaf","shippingLine2":"Road","shippingsTown":"Cabra","shippingCounty":"Dublin","shippingCode":"4KF008S"}
+
+{"_id":{"$oid":"5e9ad0c7ee1eb22f98c9d1ec"},"title":"Ms","forename":"Joan","surname":"Michaels","mobile":"90874342426","email":"moanjichaels@gmail.ie","homeLine1":"42","homeLine2":"The Park","homeTown":"Leixlip","homeCounty":"Offaly","homeCode":"74HHDS00","shippingLine1":"42","shippingLine2":"The Park","shippingTown":"Leixlip","shippingCounty":"Offaly","shippingCode":"74HHDS00"}
+
+{"_id":{"$oid":"5e9ad25a46a19e23acfdf67e"},"title":"y","forename":"Bob","surname":"Sagett","mobile":"86858","email":"h","homeLine1":"Bobs House","homeLine2":"Long Road","homeTown":null,"homeCounty":"Tipperary","homeCode":"JFO83LF","shippingLine1":"Bobs House","shippingLine2":"Long Road","shippingTown":"Bobtown","shippingCounty":"Tipperary","shippingCode":"JFO83LF"}
+
+{"_id":{"$oid":"5e9ad2b06a71784404b692dd"},"title":"ft","forename":"Michael","surname":"Scott","mobile":"222222222","email":"sdfa","homeLine1":"The Office","homeLine2":"Office Road","homeTown":"Finglas","homeCounty":"Dublin","homeCode":"AHHN000","shippingLine1":"The Office","shippingLine2":"Office Road","shippingTown":"Finglas","shippingCounty":"Dublin","shippingCode":"AHHN000"}
+
+{"_id":{"$oid":"5e9ad34c0f28af2f9820815d"},"title":"fs","forename":"Ron","surname":"Weasley","mobile":"333333","email":"fasd","homeLine1":"Country Home","homeLine2":"Country Road","homeTown":"Ardee","homeCounty":"Kerry","homeCode":"WH3R3AM1","shippingLine1":"Room 304","shippingLine2":"Hogwarts","shippingTown":"Carpo","shippingCounty":"Dublin","shippingCode":"AHB4LL1X"}
+
+{"_id":{"$oid":"5e9b1946513b0d48b060bf48"},"title":"4","forename":"tim","surname":"timoney","mobile":"4","email":"4","homeLine1":"y","homeLine2":"y","homeTown":"y","homeCounty":"y","homeCode":"d","shippingLine1":"2","shippingLine2":"f","shippingTown":"d","shippingCounty":"y","shippingCode":"y"}
+
+ITEMS:
+
+{"_id":{"$oid":"5e9acdf2bc5ccb5dfc4279b3"},"manufacturer":"Apple","model":"Small Phone","price":"4000"}
+
+{"_id":{"$oid":"5e9ace369eb2015168a1c8e6"},"manufacturer":"Samsung","model":"Tiny Phone","price":"4400"}
+
+{"_id":{"$oid":"5e9ace5fda661d4a0ccb92b0"},"manufacturer":"Samsung","model":"The Exterminator","price":"0.2"}
+
+{"_id":{"$oid":"5e9acee74eda5650ec2f8630"},"manufacturer":"Sony","model":"Pony","price":"3"}
+
+{"_id":{"$oid":"5e9acf0a14dca259dcd21629"},"manufacturer":"Pear","model":"jPhone 11","price":"600"}
+
+{"_id":{"$oid":"5e9acf3744e26d376c379ee1"},"manufacturer":"Sony Ericsson","model":"That cool phone with buttons on the side","price":"1000000"}
+
+{"_id":{"$oid":"5e9acf80f482d853300d4983"},"manufacturer":"Motorola","model":"Burner","price":"20"}
+
+{"_id":{"$oid":"5e9b0eeb160525663032230d"},"manufacturer":"Hugo Boss","model":"Boss Mobile","price":"30"}
+
+{"_id":{"$oid":"5e9fe29f1c9d4400008c0360"},"manufacturer":"Casio","model":"GShock","price":"100"}
+
+ORDERS:
+
+{"_id":{"$oid":"5e9ad95db961b4362066067e"},"custForename":"Bob","custSurname":"Dylan","phoneManufacturer":"Apple","phoneModel":"Small Phone"}
+
+{"_id":{"$oid":"5e9adcdf2faf8d066468dece"},"custForename":"Joan","custSurname":"Michael","phoneManufacturer":"Samsung","phoneModel":"The Exterminator"}
+
+{"_id":{"$oid":"5e9adcfd81e7465b302ef244"},"custForename":"Jim","custSurname":"Tim","phoneManufacturer":"Apple","phoneModel":"Big Phone"}
+
+{"_id":{"$oid":"5e9add231b400b2facf0fbee"},"custForename":"Jenivive","custSurname":"Bob","phoneManufacturer":"Samsung","phoneModel":"Tiny Phone"}
+
+{"_id":{"$oid":"5e9add3aa2b107635c1f8b47"},"custForename":"Bob","custSurname":"Sagett","phoneManufacturer":"Samsung","phoneModel":"The Exterminator"}
+
+{"_id":{"$oid":"5e9add6ba5414e2df457b894"},"custForename":"Ron","custSurname":"Weasley","phoneManufacturer":"Casio","phoneModel":"GShock"}
+
+{"_id":{"$oid":"5e9b1636aa3e8236001fa4cf"},"custForename":"Jim","custSurname":"Tim","phoneManufacturer":"Hugo Boss","phoneModel":"Boss Mobile"}

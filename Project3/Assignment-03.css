@@ -1,0 +1,119 @@
+body {
+    font-family: "Josefin sans", sans-serif;
+}
+
+::selection { 
+    color: none;
+    background: none;
+}
+
+.container {
+    margin: 0 15%;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+}
+
+th, button, td {
+    border: 1px solid black;
+}
+
+td {
+    background-color: rgb(216, 214, 214);
+    width: 125px;
+    height: 28px;
+    padding: 0;
+}
+
+.grade input {
+    width: 121px;
+    height: 24px;
+    padding: 0;
+}
+
+.grade, .average-grade, input {
+    text-align: right;
+}
+
+.average-grade, .student-name {
+    cursor: pointer;
+}
+
+.grade {
+    cursor: text;
+}
+
+.below-sixty {
+    background-color: #ff6a6a;
+    color: white;
+}
+
+.no-value {
+    background-color: rgb(255, 255, 143);
+    color: black;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(150, 150, 150);
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.btn-containers {
+    text-align: left;
+    margin: 2px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: rgb(150, 150, 150);
+    font-family: "Josefin sans", sans-serif;
+    transition: all .2s ease-in-out;
+}
+
+button:focus {
+    outline: none;
+}
+
+#add_student_form, #delete_row, #delete_column {
+    display: none;
+    transition: all .2s ease-in-out;
+}
+
+#add_student_form input {
+    display: block;
+    font-family: "Josefin sans", sans-serif;
+    padding: 10px 20px;
+}
+
+.blur{
+    filter: blur(3px);
+}
+
+#add_row, #add_assignment {
+    background-color: rgb(125, 188, 255);
+}
+
+#delete_row, #delete_column {
+    background-color: rgba(168, 50, 50);
+}
+
+#delete_row:hover, #delete_column:hover {
+    background-color: rgb(209, 62, 62);
+}
+
+#reset_data {
+    transition: all .3s ease-in;
+}
+
+#reset_data:hover {
+    background-color: rgba(168, 50, 50);
+    transform: rotate(360deg);
+}

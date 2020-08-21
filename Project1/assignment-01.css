@@ -1,0 +1,129 @@
+body {
+  background-color: #f2f2f2;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#pyramid {
+  transform: scale(.7);
+}
+
+h1 {
+  text-align: center;
+  font-size: 56px;
+  margin: 0 50px;
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 150px;
+  font-weight: 300;
+}
+
+.pyramid-section {
+  width: 936px;
+  display: block;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pyramid-section:hover .add, .pyramid-section:hover .remove {
+  opacity: 1;
+}
+
+.pyramid-section:nth-child(1) {
+  width: 860.28px;
+  height: 176.13px;
+  background-color: red;
+  margin-bottom: 1%;
+  clip-path: polygon(50% 0%, 37.5% 100%, 62.5% 100%);
+}
+
+.pyramid-section:nth-child(2) {
+  width: 905.64px;
+  height: 135px;
+  background-color: #ff8000;
+  margin-bottom: 1%;
+  clip-path: polygon(37.5% 0, 62.5% 0, 70% 100%, 30% 100%);
+}
+
+.pyramid-section:nth-child(3) {
+  height: 135px;
+  background-color: #fbff00;
+  clip-path: polygon(30% 0, 70% 0, 77.5% 100%, 22.5% 100%);
+}
+
+.pyramid-section:nth-child(4) {
+  height: 135px;
+  background-color: #00f2ff;
+  clip-path: polygon(22.5% 0, 77.5% 0, 85% 100%, 15% 100%);
+}
+
+.pyramid-section:nth-child(5) {
+  height: 135px;
+  background-color: #7d5100;
+  clip-path: polygon(15% 0, 85% 0, 92.5% 100%, 7.5% 100%);
+}
+
+.pyramid-section:nth-child(6) {
+  height: 135px;
+  background-color: #00cf2d;
+  clip-path: polygon(7.5% 0%, 92.5% 0%, 100% 100%, 0% 100%);
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pyramid-section:nth-child(1) {
+  justify-content: flex-end;
+  padding-bottom: 25px;
+}
+
+.number, .add, .remove {
+  position: relative;
+  background-color: rgba(0, 0, 0, .75);
+  color: white;
+  border-radius: 50%;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 2.5px;
+}
+
+.number {
+  width: 55px;
+  height: 55px;
+}
+
+.add, .remove {
+  width: 40px;
+  height: 40px;
+  opacity: 0;
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+}
+
+.number:before, .add:before, .remove:before {
+  font-size: 21px;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  font-weight: 700;
+}
+
+.number:before {
+  content: attr(data-content);
+}
+
+.add:before {
+  content: "+";
+}
+
+.remove:before {
+  content: "-";
+}

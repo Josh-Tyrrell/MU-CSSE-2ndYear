@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- made in Google Chrome -->
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Student Grades Table</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='assignment-03.css'>
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Student Grades Table</h1>
+        <div class="table-container">
+            <table id="student_grades"b>
+                <tr>
+                    <th class="student-name">Student Name</th>
+                    <th id="id_header" class="student-id">Student ID</th>
+                    <th class="average-grade">Average Grade</th>
+                </tr>
+            </table>
+        </div>
+
+        <div class="btn-containers">
+            <form id="add_student_form" method="POST">
+                <input type="text" name="studentName" id="studentName" placeholder="Student Name" required/>
+                <input type="text" name="studentID" id="studentID" placeholder="Student ID" required/>
+            </form>
+            <button id="add_row">Add Student</button>
+            <button id="add_assignment">Add Assignment</button>
+            <button id="delete_row">Delete Row</button>
+            <button id="delete_column">Delete Column</button>
+        </div>
+
+        <h2>Unsubmitted Assignments: <span id="unsubmitted_value"></span></h2>
+
+        <button id="reset_data">Reset Data</button>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src='assignment-03.js'></script>
+</body>
+
+</html>
